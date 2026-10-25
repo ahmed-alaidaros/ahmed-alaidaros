@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1b26"/>
+      <stop offset="100%" stop-color="#16161e"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7aa2f7"/>
+      <stop offset="100%" stop-color="#7dcfff"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    .header { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #7aa2f7; letter-spacing: 0.5px; }
+    .sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #565f89; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #9aa5ce; text-transform: uppercase; letter-spacing: 1px; }
+    .card-value { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 800; fill: #c0caf5; }
+    .card-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; fill: #565f89; }
+    .lang-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #a9b1d6; }
+    .lang-pct { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #565f89; }
+  </style>
+
+  <!-- Container -->
+  <rect width="800" height="340" rx="14" fill="url(#bgGrad)" stroke="#24283b" stroke-width="1.5"/>
+
+  <!-- Header Section -->
+  <g transform="translate(35, 32)">
+    <circle cx="12" cy="12" r="12" fill="#7aa2f7" fill-opacity="0.15"/>
+    <path d="M12 6L14 10L18 10.5L15 13.5L16 18L12 15.5L8 18L9 13.5L6 10.5L10 10L12 6Z" fill="#7aa2f7"/>
+    <text x="34" y="16" class="header">Ahmed Alaidaros — Verified Engineering Activity</text>
+    <text x="34" y="32" class="sub">Authenticated GitHub Enterprise &amp; Private Repositories Activity</text>
+  </g>
+
+  <!-- 4 Stats Cards Grid -->
+  <!-- Card 1: Total Contributions -->
+  <g transform="translate(35, 80)" filter="url(#shadow)">
+    <rect width="168" height="100" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
+    <circle cx="28" cy="28" r="14" fill="#73daca" fill-opacity="0.15"/>
+    <path d="M24 28L27 31L33 25" stroke="#73daca" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="50" y="32" class="card-title">Contributions</text>
+    <text x="24" y="68" class="card-value">1,578+</text>
+    <text x="24" y="85" class="card-sub">All-Time Verified Activity</text>
+  </g>
+
+  <!-- Card 2: Commits -->
+  <g transform="translate(222, 80)" filter="url(#shadow)">
+    <rect width="168" height="100" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
+    <circle cx="28" cy="28" r="14" fill="#7aa2f7" fill-opacity="0.15"/>
+    <path d="M25 28C25 26.3431 26.3431 25 28 25C29.6569 25 31 26.3431 31 28C31 29.6569 29.6569 31 28 31C26.3431 31 25 29.6569 25 28ZM25 28H21M31 28H35" stroke="#7aa2f7" stroke-width="2" stroke-linecap="round"/>
+    <text x="50" y="32" class="card-title">Total Commits</text>
+    <text x="24" y="68" class="card-value">1,254+</text>
+    <text x="24" y="85" class="card-sub">Across 20 Repositories</text>
+  </g>
+
+  <!-- Card 3: Pull Requests -->
+  <g transform="translate(410, 80)" filter="url(#shadow)">
+    <rect width="168" height="100" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
+    <circle cx="28" cy="28" r="14" fill="#bb9af7" fill-opacity="0.15"/>
+    <path d="M24 24C24 22.8954 24.8954 22 26 22C27.1046 22 28 22.8954 28 24C28 25.1046 27.1046 26 26 26M26 26V32M30 32C30 30.8954 30.8954 30 32 30C33.1046 30 34 30.8954 34 32C34 33.1046 33.1046 34 32 34M32 30V26C32 25 31 24 30 24H28" stroke="#bb9af7" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="50" y="32" class="card-title">Pull Requests</text>
+    <text x="24" y="68" class="card-value">146</text>
+    <text x="24" y="85" class="card-sub">Git Flow &amp; Merged PRs</text>
+  </g>
+
+  <!-- Card 4: Issues Handled -->
+  <g transform="translate(597, 80)" filter="url(#shadow)">
+    <rect width="168" height="100" rx="10" fill="#1f2335" stroke="#292e42" stroke-width="1"/>
+    <circle cx="28" cy="28" r="14" fill="#e0af68" fill-opacity="0.15"/>
+    <circle cx="28" cy="28" r="6" stroke="#e0af68" stroke-width="2"/>
+    <circle cx="28" cy="28" r="2" fill="#e0af68"/>
+    <text x="50" y="32" class="card-title">Issues Resolved</text>
+    <text x="24" y="68" class="card-value">163</text>
+    <text x="24" y="85" class="card-sub">Sprint Tasks &amp; Milestones</text>
+  </g>
+
+  <!-- Languages Section -->
+  <g transform="translate(35, 210)">
+    <text x="0" y="16" class="card-title" fill="#7aa2f7">Top Languages &amp; Codebase Breakdown</text>
+
+    <!-- Multi-colored Progress Bar -->
+    <g transform="translate(0, 30)">
+      <rect width="730" height="12" rx="6" fill="#24283b"/>
+      <!-- TypeScript: 68% -> width 496 -->
+      <rect width="496" height="12" rx="6" fill="#3178c6"/>
+      <!-- JavaScript: 23% -> width 168 -->
+      <rect x="498" width="166" height="12" rx="0" fill="#f1e05a"/>
+      <!-- CSS/HTML: 7% -> width 51 -->
+      <rect x="666" width="49" height="12" rx="0" fill="#563d7c"/>
+      <!-- Other: 2% -> width 13 -->
+      <rect x="717" width="13" height="12" rx="6" fill="#4169e1"/>
+    </g>
+
+    <!-- Legend -->
+    <g transform="translate(0, 68)">
+      <!-- TypeScript -->
+      <circle cx="6" cy="6" r="5" fill="#3178c6"/>
+      <text x="18" y="10" class="lang-label">TypeScript <tspan class="lang-pct">68.0%</tspan></text>
+
+      <!-- JavaScript -->
+      <circle cx="206" cy="6" r="5" fill="#f1e05a"/>
+      <text x="218" y="10" class="lang-label">JavaScript <tspan class="lang-pct">23.0%</tspan></text>
+
+      <!-- CSS/Styles -->
+      <circle cx="396" cy="6" r="5" fill="#563d7c"/>
+      <text x="408" y="10" class="lang-label">CSS &amp; Styling <tspan class="lang-pct">7.0%</tspan></text>
+
+      <!-- PostgreSQL / Other -->
+      <circle cx="586" cy="6" r="5" fill="#4169e1"/>
+      <text x="598" y="10" class="lang-label">PostgreSQL &amp; Other <tspan class="lang-pct">2.0%</tspan></text>
+    </g>
+  </g>
+</svg>
